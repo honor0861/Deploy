@@ -1,5 +1,5 @@
 '''
-아파치:apache(or NGINX) 서버(웹 서버)가 가장 먼저 찾는 파일
+아파치:apache(or NGINX)서버(웹 서버)가 가장 먼저 찾는 파일
 wsgi 기능은 서버기능을 제공하는 역할
 '''
 import sys, os

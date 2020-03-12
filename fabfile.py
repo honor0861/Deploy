@@ -5,7 +5,6 @@ from fabric.api import env, local, run, sudo
 import os
 import json
 
-
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 envs = json.load(open(os.path.join(PROJECT_DIR, "deploy.json")))
