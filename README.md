@@ -27,7 +27,7 @@ Deploy
 - 브라우저 가동
 - 13.125.9.250 접속
 - 접속로그 확인(리눅스에서 진행)
-- $ tail -f /var/apache2/access.log
+- $ tail -f /fab var/apache2/access.log
 
 # 이후작업
 - 코드수정
