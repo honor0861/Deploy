@@ -34,3 +34,16 @@ Deploy
 - git 최신반영
 - 서버 업데이트
     $ fab deploy
+
+# 잘 안될 경우!!
+- 소스코드 상에, 파일명, 설정값 등 오타가 없어야 함
+- git에 최종 소스가 모드 반영되어야 함
+- 리눅스에서 기존의 흔적을 모두 제거
+  현재위치 : /home/ubuntu
+  프로젝트 삭제 : $ rm -r -f deploy
+  숨김 파일 확인
+  $ ls -a
+  가상환경 삭제 :
+  $ rm -r -f .virualenvs
+- 로컬 PC
+  $ fab new_server
